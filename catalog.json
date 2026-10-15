@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "id": "bb-arcade",
+  "version": "0.1.0",
+  "cabinets": [
+    {
+      "id": "tmnt",
+      "name": "TMNT",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "tmnt.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/tmnt/tmnt_arcade.obj",
+      "material": "assets/tmnt/tmnt_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "furniture_id": 1371,
+      "content_id": 1,
+      "adapter": "tmnt",
+      "body": "assets/tmnt/runtime_body.obj",
+      "screen": "assets/tmnt/tmnt_screen.obj"
+    },
+    {
+      "id": "mspacman",
+      "name": "Ms. Pac-Man",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "mspacman.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/mspacman/ms_pacman_arcade.obj",
+      "material": "assets/mspacman/ms_pacman_arcade.mtl",
+      "screen_aspect": [
+        3,
+        4
+      ],
+      "furniture_id": 1372,
+      "content_id": 2,
+      "adapter": "mspacman",
+      "body": "assets/mspacman/runtime_body.obj",
+      "screen": "assets/mspacman/ms_pacman_screen.obj"
+    },
+    {
+      "id": "nbajam",
+      "name": "NBA Jam",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "nbajam.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/nbajam/nba_jam_arcade.obj",
+      "material": "assets/nbajam/nba_jam_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "furniture_id": 1373,
+      "content_id": 3,
+      "adapter": "nbajam",
+      "body": "assets/nbajam/runtime_body.obj",
+      "screen": "assets/nbajam/nba_jam_screen.obj"
+    },
+    {
+      "id": "mslug",
+      "name": "Metal Slug",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "mslug.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/mslug/metal_slug_arcade.obj",
+      "material": "assets/mslug/metal_slug_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "furniture_id": 1374,
+      "content_id": 4,
+      "adapter": "mslug",
+      "body": "assets/mslug/runtime_body.obj",
+      "screen": "assets/mslug/metal_slug_screen.obj"
+    },
+    {
+      "id": "mvsc",
+      "name": "Marvel vs. Capcom",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "mvscu.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/mvsc/marvel_capcom_arcade.obj",
+      "material": "assets/mvsc/marvel_capcom_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "furniture_id": 1375,
+      "content_id": 5,
+      "adapter": "mvsc",
+      "body": "assets/mvsc/runtime_body.obj",
+      "screen": "assets/mvsc/marvel_capcom_screen.obj"
+    },
+    {
+      "id": "umk3",
+      "name": "Ultimate Mortal Kombat 3",
+      "status": "integrated",
+      "backend": "fbneo",
+      "rom": "umk3.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/umk3/umk3_arcade.obj",
+      "material": "assets/umk3/umk3_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "furniture_id": 1376,
+      "content_id": 6,
+      "adapter": "umk3",
+      "body": "assets/umk3/runtime_body.obj",
+      "screen": "assets/umk3/umk3_screen.obj"
+    },
+    {
+      "id": "megaman2",
+      "name": "Mega Man 2: The Power Fighters",
+      "status": "authoring",
+      "backend": "fbneo",
+      "rom": "megaman2.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/megaman2/megaman2_arcade.obj",
+      "material": "assets/megaman2/megaman2_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "screen": "assets/megaman2/megaman2_screen.obj"
+    },
+    {
+      "id": "primal-rage",
+      "name": "Primal Rage",
+      "status": "authoring",
+      "backend": "fbneo",
+      "rom": "primrage.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/primal-rage/primal_rage_arcade.obj",
+      "material": "assets/primal-rage/primal_rage_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ],
+      "screen": "assets/primal-rage/primal_rage_screen.obj"
+    },
+    {
+      "id": "battletoads",
+      "name": "Battletoads",
+      "status": "authoring",
+      "backend": "fbneo",
+      "rom": "btoads.zip",
+      "footprint": [
+        1,
+        1
+      ],
+      "world_units_per_metre": 40,
+      "model": "assets/battletoads/battletoads_arcade.obj",
+      "material": "assets/battletoads/battletoads_arcade.mtl",
+      "screen_aspect": [
+        4,
+        3
+      ]
+    }
+  ]
+}

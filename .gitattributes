@@ -1,0 +1,8 @@
+# Mesh/material byte contracts must be identical on Windows and GitHub Actions.
+assets/** -text whitespace=cr-at-eol
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

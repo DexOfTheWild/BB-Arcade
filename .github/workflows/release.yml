@@ -1,0 +1,29 @@
+name: Cabinet data release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check catalog version
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          python - <<'PY'
+          import json,os
+          assert os.environ['RELEASE_TAG']=='v'+json.load(open('catalog.json'))['version'], 'Tag must match catalog version'
+          PY
+      - run: python -m unittest test_build_pack
+      - run: python build_pack.py
+      - name: Publish cabinet assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_TAG" dist/BB-Arcade.zip dist/BB-Arcade.json --title "BB-Arcade $RELEASE_TAG" --generate-notes

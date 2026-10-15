@@ -1,0 +1,49 @@
+newmtl Cabinet_details
+Ka 1 1 1
+Kd 1 1 1
+Ke 0 0 0
+Ks 0 0 0
+Ns 0
+d 1
+illum 1
+map_Kd cabinet_details.png
+
+newmtl Printed_artwork
+Ka 1 1 1
+Kd 1 1 1
+Ke 0 0 0
+Ks 0 0 0
+Ns 0
+d 1
+illum 1
+map_Kd primal_rage_artwork.png
+
+newmtl CRT_screen
+Ka 1 1 1
+Kd 1 1 1
+Ke 0 0 0
+Ks 0 0 0
+Ns 0
+d 1
+illum 1
+map_Kd screen_blank.png
+
+newmtl Marquee_print
+Ka 1 1 1
+Kd 1 1 1
+Ke 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+illum 1
+map_Kd primal_rage_artwork.png
+
+newmtl Cabinet_lamps
+Ka 1 1 1
+Kd 1 1 1
+Ke 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+illum 1
+map_Kd cabinet_details.png
