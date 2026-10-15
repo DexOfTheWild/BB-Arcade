@@ -1,13 +1,12 @@
 # BB-Arcade
 
 Optional cabinet artwork and metadata for ACGC PC Port BB, separate from
-[BB-Rentals](https://github.com/DexOfTheWild/BB-Rentals). This repository remains
-private. It contains no ROMs, BIOS, emulator DLLs, save states or player saves.
+[BB-Rentals](https://github.com/DexOfTheWild/BB-Rentals). This repository is public.
+It contains no ROMs, BIOS, emulator DLLs, save states or player saves.
 
 The launcher **Games** page can install/update the latest stable release, install
-a local ZIP, or disable/re-enable the pack. Private downloads require
-`ACGC_GITHUB_TOKEN` with read access to this repository. No token is stored in
-this repository or its releases. A local release ZIP works offline.
+a local ZIP, or disable/re-enable the pack. Public downloads require no GitHub
+key or account. A local release ZIP works offline.
 
 Use **BB-Arcade.zip** and **BB-Arcade.json** from Releases. GitHub source archives
 are not installable packs. The launcher verifies ZIP/asset hashes, stages an
